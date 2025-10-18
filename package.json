@@ -1,16 +1,19 @@
 {
-  "name": "ecommerce-api",
+  "name": "ecommerce-new",
   "version": "1.0.0",
-  "description": "API de productos y carritos con Node.js y Express",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "socket.io": "^4.7.2",
+    "fs-extra": "^11.2.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.10"
   }
 }
